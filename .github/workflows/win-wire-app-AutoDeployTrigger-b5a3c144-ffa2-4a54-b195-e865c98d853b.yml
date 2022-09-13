@@ -37,7 +37,7 @@ jobs:
           push: true
           tags: mvpcontainerregister.azurecr.io/win-wire-app:${{ github.sha }}
           file: ./WinWireApp/Dockerfile
-          context: ./
+          context: ./WinWireApp/
 
 
   deploy:
