@@ -289,6 +289,39 @@
         }
       },
       {
+        "HashCode": 170978718,
+        "Kind": "Components.Component",
+        "Name": "WinWireApp.Pages.Todo",
+        "AssemblyName": "WinWireApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Todo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WinWireApp.Pages.Todo"
+        }
+      },
+      {
+        "HashCode": -1349009837,
+        "Kind": "Components.Component",
+        "Name": "WinWireApp.Pages.Todo",
+        "AssemblyName": "WinWireApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WinWireApp.Pages.Todo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WinWireApp.Pages.Todo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 110584848,
         "Kind": "Components.Component",
         "Name": "WinWireApp.App",
@@ -13661,6 +13694,11 @@
     {
       "FilePath": "c:\\Users\\tioleson\\source\\repos\\BlaazorApp\\WinWireApp\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\tioleson\\source\\repos\\BlaazorApp\\WinWireApp\\Pages\\Todo.razor",
+      "TargetPath": "Pages\\Todo.razor",
       "FileKind": "component"
     },
     {
