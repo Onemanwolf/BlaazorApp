@@ -4,6 +4,15 @@
     flex-direction: column;
 }
 
+
+
+
+
+
+
+
+
+
 main {
     flex: 1;
 }
@@ -78,4 +87,22 @@ main {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+
+    body {
+        font-family: sans-serif;
+        padding: 1em;
+      }
+
+   .custom {
+        --card-width: 350px;
+        --card-height: 300px;
+        padding: 22px;
+      }
+
+   .button{
+       padding: 5em;
+   }
+
+
+
 }

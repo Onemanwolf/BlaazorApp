@@ -1,22 +1,49 @@
 @page "/todo"
+@using Microsoft.Fast.Components.FluentUI
 
 <PageTitle>Todo</PageTitle>
 
+<style>
+    fluent-card {
+        --card-width: 500px;
+        --card-height: auto;
+    }
 
+    .card-padding {
+        padding: 20px;
+    }
+</style>
 <h1>Todo (@todos.Count(todo => !todo.IsDone))</h1>
 
-<ul>
+<FluentCard class="card-padding">
+
+    <ul>
     @foreach (var todo in todos)
     {
         <li>
-            <input type="checkbox" @bind="todo.IsDone" />
-            <input @bind="todo.Title" />
+            <FluentCheckbox @bind-Value="todo.IsDone"></FluentCheckbox>
+            <FluentTextField @bind-Value="todo.Title" ></FluentTextField>
+            @* <input type="checkbox" @bind="todo.IsDone" /> *@
+
+            @* <input @bind="todo.Title" /> *@
         </li>
     }
 </ul>
 
-<input placeholder="Add todo" @bind="newTodo" />
-<button @onclick="AddTodo">Add</button>
+<div>
+
+<FluentTextField placeholder="Add todo" @bind-Value="newTodo" ></FluentTextField>
+ </div>
+ <div class="btnsytle">
+ @* <button @onclick="AddTodo">Add</button> *@
+  <FluentButton @onclick="() => AddTodo()">Add</FluentButton>
+  </div>
+</FluentCard>
+
+
+
+
+
 
 @code {
     private string? newTodo;
@@ -25,6 +52,7 @@
     private void AddTodo()
     {
         var todo = new TodoItem { Title = newTodo };
+
         todos.Add(todo);
         newTodo = string.Empty;
     }

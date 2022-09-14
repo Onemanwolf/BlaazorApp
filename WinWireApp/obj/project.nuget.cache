@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UFtYHHrXh1eto2jFjENaVcksxgfVzei43jKtKBa3/82fbaGhfH5K2DhQVQ11bp/Ai/q90K2c5FQ/bsVlrAzfMg==",
+  "dgSpecHash": "VZBKWQJ4PRymbnI/fCRMcmAGSYDiIg7D4a8CSfeD4KAxcInPPrLuECZrqU2AUvlpI0yRxnDUlZjiDs3zfDnFiA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tioleson\\source\\repos\\BlaazorApp\\WinWireApp\\WinWireApp.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.fast.components.fluentui\\1.5.3\\microsoft.fast.components.fluentui.1.5.3.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\microsoft.jsinterop.6.0.8.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.8\\microsoft.jsinterop.webassembly.6.0.8.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
@@ -33,7 +34,7 @@
     "C:\\Users\\tioleson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.8.nupkg.sha512"
+    "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.9.nupkg.sha512"
   ],
   "logs": []
 }

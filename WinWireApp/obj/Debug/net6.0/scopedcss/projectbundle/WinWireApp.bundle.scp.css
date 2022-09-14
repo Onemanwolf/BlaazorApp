@@ -5,6 +5,15 @@
     flex-direction: column;
 }
 
+
+
+
+
+
+
+
+
+
 main[b-zxetlym9m7] {
     flex: 1;
 }
@@ -79,6 +88,24 @@ main[b-zxetlym9m7] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+
+    body[b-zxetlym9m7] {
+        font-family: sans-serif;
+        padding: 1em;
+      }
+
+   .custom[b-zxetlym9m7] {
+        --card-width: 350px;
+        --card-height: 300px;
+        padding: 22px;
+      }
+
+   .button[b-zxetlym9m7]{
+       padding: 5em;
+   }
+
+
+
 }
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-ovcf9vdsg2] {
