@@ -1,5 +1,6 @@
 @page "/todo"
 @using Microsoft.Fast.Components.FluentUI
+@inject IDataAccess DataAccessService
 
 <PageTitle>Todo</PageTitle>
 
@@ -49,11 +50,13 @@
     private string? newTodo;
     private List<TodoItem> todos = new ();
 
-    private void AddTodo()
+    private async Task AddTodo()
     {
         var todo = new TodoItem { Title = newTodo };
 
-        todos.Add(todo);
+
         newTodo = string.Empty;
+       await DataAccessService.PostAsync(todo);
+       todos = await DataAccessService.GetAsync();
     }
 }

@@ -102,7 +102,7 @@
           "build/net6.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.8": {
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.9": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
@@ -625,7 +625,7 @@
           "build/net6.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.8": {
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.9": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
@@ -1140,10 +1140,10 @@
         "microsoft.aspnetcore.components.webassembly.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.8": {
-      "sha512": "SxfEIikHa0hDeC/NW5BWA48vqs5v02LTGcfXlzxtWfC+vs9mwqPIQNz4gYrnahZDLy2/XtM3PSd0Y9lKdu8TjQ==",
+    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.9": {
+      "sha512": "eVsHOOpHILosJVcAxCDUk6rzAIUV81O+Wqo6l/toaf23mqMbLEv9/L2yQSFnpInDxOAeljE1SkyfbwNwToyUcg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.webassembly.devserver/6.0.8",
+      "path": "microsoft.aspnetcore.components.webassembly.devserver/6.0.9",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1151,7 +1151,7 @@
         "Icon.png",
         "THIRD-PARTY-NOTICES.txt",
         "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets",
-        "microsoft.aspnetcore.components.webassembly.devserver.6.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.devserver.6.0.9.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.devserver.nuspec",
         "tools/BlazorDebugProxy/BrowserDebugHost.dll",
         "tools/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json",
@@ -14596,7 +14596,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.8",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.8",
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.9",
       "Microsoft.Fast.Components.FluentUI >= 1.5.3"
     ]
   },
@@ -14652,7 +14652,7 @@
           "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[6.0.8, )"
+            "version": "[6.0.9, )"
           },
           "Microsoft.Fast.Components.FluentUI": {
             "target": "Package",

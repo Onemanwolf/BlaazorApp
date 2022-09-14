@@ -197,7 +197,7 @@
       "mscorlib.dll": "sha256-MnMyZHtcymf0sLxXeFBbQZVsdNdxT0GXJaa9t3ZdSek=",
       "netstandard.dll": "sha256-+SGdnDhVMiZ9hq0EsYwJ+mcK0odf3bAtXnSKLorGDCs=",
       "System.Private.CoreLib.dll": "sha256-mqfalNg3wC8XHlyA+j5ioNcnc0kt4prNudKdyJoaYaU=",
-      "WinWireApp.dll": "sha256-iA3fHLJ\/vWdegy9V+6ZoREDjUSgbmgkSnasch+qZPLM="
+      "WinWireApp.dll": "sha256-51s1odwriFtZ99beMFsxO5toCiykrbLjwJygphYcPN8="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -205,7 +205,7 @@
       "_content\/Microsoft.Fast.Components.FluentUI\/Microsoft.Fast.Components.FluentUI.lib.module.js": "sha256-kvpFfM0tejhD5lLleaE2R9N8Xw5dS43ocIsZzkacClw="
     },
     "pdb": {
-      "WinWireApp.pdb": "sha256-7HFShHb+Mfpobdxh0446Rl26bUeryuttS89h0TlcA6A="
+      "WinWireApp.pdb": "sha256-q+bImY29nhONLlPq2uK9rA7C91cHcNHM5cSAyvyVsEI="
     },
     "runtime": {
       "dotnet.6.0.9.dfeu6pr235.js": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",
