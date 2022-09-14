@@ -1,24 +1,51 @@
+using System.Net;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 using System.Net.Http;
 using Microsoft.AspNetCore.Components;
+using System.Net.Http.Json;
+using System.Text.Json;
+using System.Text;
+using Newtonsoft.Json;
 
 public class DataAccessService : IDataAccess
 {
+
     [Inject]
-    private  HttpClient _httpClient { get; set; }
+    private  IHttpClientFactory _httpClient { get; set; }
+    private HttpClient _client { get; set; }
+    public List<TodoItem>? todos { get; private set; }
 
     private List<TodoItem> _todoItems = new List<TodoItem>();
 
-    public DataAccessService(HttpClient httpClient)
+    public DataAccessService(IHttpClientFactory httpClient)
     {
         _httpClient = httpClient;
+
+       _client = _httpClient.CreateClient("WinWireApp");
+
+
     }
 
     public async Task<List<TodoItem>> GetAsync()
     {
-        var todos = await Task.Run(() => {return _todoItems;});
-        return todos;
+
+
+        try{
+             _todoItems = await _client.GetFromJsonAsync<List<TodoItem>>("Todo");
+        ;
+
+
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+
+
+        }
+
+
+        return _todoItems;
     }
 
     public Task<string> GetByIdAsync(string id)
@@ -28,6 +55,15 @@ public class DataAccessService : IDataAccess
 
     public async Task PostAsync(TodoItem data)
     {
-      await Task.Run(() => _todoItems.Add(data));
+        data.Id = "1";
+   
+        try{
+            await _client.PostAsJsonAsync<TodoItem>("Todo", data);
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
     }
 }

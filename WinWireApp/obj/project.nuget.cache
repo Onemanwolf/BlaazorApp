@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BO841oB1GU2RiMZ4F4NCX3wKDoLi53iKwfQlbSZQYP0mv5hZq9DuxSRkb9OKNvl8DjLB2fm2Dm+IC/FoOnaSCQ==",
+  "dgSpecHash": "QFwVi3BP1nMJryqMHlFQ1Hu1DgJZP4gt12xMnQYBieud0ZaFmC9DO7/nPR14tl3MCUsMiKLtLxMqyW9W+AGYFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\tioleson\\source\\repos\\BlaazorApp\\WinWireApp\\WinWireApp.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
@@ -29,6 +30,7 @@
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.fast.components.fluentui\\1.5.3\\microsoft.fast.components.fluentui.1.5.3.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\microsoft.jsinterop.6.0.8.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.8\\microsoft.jsinterop.webassembly.6.0.8.nupkg.sha512",
+    "C:\\Users\\tioleson\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\tioleson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

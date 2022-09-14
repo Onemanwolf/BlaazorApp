@@ -818,3 +818,11 @@ C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\obj\Debug\net6.0\build-gz\Z
 C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\obj\Debug\net6.0\build-gz\IXIDgIXg.gz
 C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\obj\Debug\net6.0\build-gz\LgFYLz0h.gz
 C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\obj\Debug\net6.0\build-gz\6kD8qxD9.gz
+C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\obj\Debug\net6.0\build-gz\ySJA0Btp.gz
+C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Http.dll
+C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Http.dll.gz
+C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\tioleson\source\repos\BlaazorApp\WinWireApp\obj\Debug\net6.0\build-gz\ZSCGllgQ.gz

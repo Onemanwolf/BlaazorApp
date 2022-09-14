@@ -55,8 +55,9 @@
         var todo = new TodoItem { Title = newTodo };
 
 
+
+        await DataAccessService.PostAsync(todo);
+        todos = await DataAccessService.GetAsync();
         newTodo = string.Empty;
-       await DataAccessService.PostAsync(todo);
-       todos = await DataAccessService.GetAsync();
     }
 }
