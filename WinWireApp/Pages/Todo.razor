@@ -47,8 +47,15 @@
 
 
 @code {
+
     private string? newTodo;
     private List<TodoItem> todos = new ();
+
+    protected override async Task OnInitializedAsync()
+    {
+        todos = await DataAccessService.GetAsync();
+    }
+
 
     private async Task AddTodo()
     {
